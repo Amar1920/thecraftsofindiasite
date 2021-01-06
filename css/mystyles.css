@@ -1,0 +1,42 @@
+.tagline{
+    text-align: center;
+    height: 7rem;
+    padding: 2rem;
+
+}
+
+.carousel-caption h3{
+    margin-top: 5rem;
+}
+
+.carousel-caption p {
+    margin-top: 5rem;
+}
+
+.bb-middle-agileits-w3layouts{
+    width: 20rem;
+}
+
+.ban-top {
+    background-color: #d4af37;
+}
+
+.wavy .container0 .box0 .content0 span .brace{
+     height: 5rem;
+     color: red;
+}
+
+
+
+@media(max-width: 600px)
+{
+    .tagline{
+        height: 15rem;
+    }
+    .carousel-caption h3{
+        margin-top:10rem;
+    }
+    .carousel-caption  p{
+        margin-top: 3rem;
+    }
+}

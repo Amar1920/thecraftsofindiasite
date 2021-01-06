@@ -1,0 +1,209 @@
+body {
+  box-sizing: border-box;
+}
+
+#lantern {
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+  margin-left: -20rem;
+}
+
+#background {
+  left: 0px;
+  top: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5rem;
+  width: 2000px;
+  height: 1334px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+#Background {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 2000px;
+  height: 500px;
+  z-index: 1;
+}
+
+#layer_1 {
+  left: -27px;
+  top: 0px;
+  position: absolute;
+  width: 2049px;
+  height: 500px;
+  z-index: 2;
+}
+
+#Layer1 {
+  left: 640px;
+  top: 172px;
+  position: absolute;
+  width: 716px;
+  height: 200px;
+  z-index: 3;
+  margin-top: 1.5rem;
+}
+
+#Weshowcasecuratedaut {
+  left: 751px;
+  top: 432px;
+  position: absolute;
+  width: 264px;
+  height: 200px;
+  z-index: 4;
+  margin-top: -10rem;
+}
+
+#discover {
+  font-style: italic;
+  color: goldenrod;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: -36rem;
+}
+
+/* aabdar */
+
+#aabdarimg {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+.zoomimage img {
+  transition: 2s;
+}
+
+.zoomimage:hover img {
+  transform: scale(1.2);
+}
+#background1 {
+  left: 0px;
+  top: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2000px;
+  height: 1334px;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+#Layer0 {
+  left: 0px;
+  top: -1px;
+  position: absolute;
+  width: 2000px;
+  height: 1334px;
+  z-index: 1;
+}
+
+#AABDARAabWaterDar {
+  left: 1005px;
+  top: 209px;
+  position: absolute;
+  width: 700px;
+  height: 132px;
+  z-index: 2;
+}
+
+#Layer25 {
+  left: -35px;
+  top: -12px;
+  position: absolute;
+  width: 2035px;
+  height: 1367px;
+  z-index: 3;
+}
+
+#Layer18 {
+  left: -145px;
+  top: -123px;
+  position: absolute;
+  width: 543px;
+  height: 579px;
+  z-index: 4;
+}
+
+#Layer22 {
+  left: 1664px;
+  top: 1014px;
+  position: absolute;
+  width: 530px;
+  height: 411px;
+  z-index: 5;
+}
+
+#Layer22copy {
+  left: -5px;
+  top: 1074px;
+  position: absolute;
+  width: 307px;
+  height: 472px;
+  z-index: 6;
+}
+
+#Layer22copy3 {
+  left: 1672px;
+  top: -208px;
+  position: absolute;
+  width: 544px;
+  height: 552px;
+  z-index: 7;
+}
+
+#Layer22copy4 {
+  left: -213px;
+  top: -236px;
+  position: absolute;
+  width: 555px;
+  height: 539px;
+  z-index: 8;
+}
+
+#Layer21 {
+  left: 249px;
+  top: 179px;
+  position: absolute;
+  width: 620px;
+  height: 915px;
+  z-index: 9;
+}
+
+#Inspiredbynaturalspr {
+  left: 983px;
+  top: 416px;
+  position: absolute;
+  width: 754px;
+  height: 606px;
+  z-index: 10;
+}
+
+@media (max-width: 600px) {
+  #aabdarimg > img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .chotu > h1 {
+    font-size: 1rem;
+    margin-left: 2rem !important;
+  }
+
+  .chotu > h2 {
+    font-size: 1rem !important;
+  }
+}
